@@ -1,0 +1,10 @@
+docker run -d -it -p 8081:80 nginx
+sudo nginx -s reload #Recargar configuracion cuando hacemos cambios en default.conf que esta dentro de conf.de
+https://nginx.org/en/docs/http/ngx_http_core_module.html   #Contextos core de nginx
+/etc/host en linux
+c/windows/asystem32/etc/drivesr/hosta
+sudo apt-get install apache2-utils -y #Utilidad para crear ususarios con password
+sudo mkdir /etc/apache2 #creo carpeta apache2
+sudo htpasswd -c /etc/apache2/.htpasswd admin Usamos la herramienta htpasswd y creamos a user admin dentro del .htpasswd
+Reverse proxi es inverso a un proxi normal ...El cliente pide al proxi y este redirige a que server darle el trabajo y responder vía el mismo proxi al cliente
+
